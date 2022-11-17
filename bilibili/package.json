@@ -1,0 +1,26 @@
+{
+  "name": "bilibili",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:icon": "vue serve ./src/components/Icon/test.vue",
+    "test:Avatar": "vue serve ./src/components/Avatar/test.vue",
+    "test:pager": "vue serve ./src/components/pager/test.vue",
+    "test:empty": "vue serve ./src/components/Empty/test.vue",
+    "test:contact": "vue serve ./src/components/Contack/test.vue",
+    "test:imgLoder": "vue serve ./src/components/ImageLoader/test.vue"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
